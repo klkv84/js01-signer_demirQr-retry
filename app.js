@@ -18,7 +18,7 @@ console.log(sign);
 // verifier = crypto.createVerify("RSA-SHA256");
 // verifier.update("https://apigatewaytest.demirbank.kg/accountapi/accounts/kulikov/qr/generate/1181000500174594/1/KGS"); 
 // result = verifier.verify(({key:publicKey,padding:crypto.constants. RSA_PKCS1_PADDING}, sign, "base64"));
-// console.log(result);//true
+// console.log(result);//true if ok
 
 // Проверка подписи
 verifier = crypto.createVerify("RSA-SHA256");
